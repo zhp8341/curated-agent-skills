@@ -2,10 +2,10 @@
 
 **English** | [简体中文](README.zh-CN.md)
 
-[![Skills](https://img.shields.io/badge/skills-110-4f46e5)](https://aibars.net/en/skills)
+[![Skills](https://img.shields.io/badge/skills-133-4f46e5)](https://aibars.net/en/skills)
 [![License](https://img.shields.io/badge/list-MIT-green)](#license)
 
-A hand-picked directory of **110 Skills** for Claude Code, Codex, Cursor, GitHub Copilot, Gemini CLI and other AI coding agents. Every Skill is checked before it is listed, most are tried for real with a recorded demo, and each one shows its source, license and risk notes. Anything we have not tried ourselves is clearly marked.
+A hand-picked directory of **133 Skills** for Claude Code, Codex, Cursor, GitHub Copilot, Gemini CLI and other AI coding agents. Every Skill is checked before it is listed, most are tried for real with a recorded demo, and each one shows its source, license and risk notes. Anything we have not tried ourselves is clearly marked.
 
 **Browse with demos and search: [aibars.net/en/skills](https://aibars.net/en/skills)**
 
@@ -17,7 +17,7 @@ A hand-picked directory of **110 Skills** for Claude Code, Codex, Cursor, GitHub
 2. **Source read.** We read `SKILL.md` and every file that comes with it, scripts included, and look for anything that deletes, overwrites, reads secrets or downloads and runs code.
 3. **Tried for real.** We run each Skill in a clean environment with a realistic request. The demo on its page is the recorded output, shown unmodified. Where a result was wrong or only partly checked, the page says so.
 4. **Risk labeled.** Every Skill has a risk note, and many carry a level (low, medium, high). Skills that run scripts, need network access, credentials or control a real browser say so up front.
-5. **Honest about gaps.** One Skill we could not try (for example because it needs a real GitHub account) is marked **⚠️ Not tried**.
+5. **Honest about gaps.** 5 Skills we could not try (for example because they need a real repository, a tracker or a toolchain we could not set up) are marked **⚠️ Not tried**.
 
 AI models did the review and the trials, so please read the source and the risk notes before you use a Skill. Nothing here is a guarantee.
 
@@ -25,6 +25,7 @@ AI models did the review and the trials, so please read the source and the risk 
 
 | Skill | What it does | Author | License | Risk | Tried |
 |---|---|---|---|---|---|
+| [Design Taste Frontend](https://aibars.net/en/skills/896418145756254208) | Make the agent design landing pages, portfolios and redesigns that do not look templated: read the brief, state a design read, set three dials, pick a real design system when one fits, and pass a strict pre-flight check. | Leonxlnx | MIT | Medium | ✅ |
 | [Frontend Design](https://aibars.net/en/skills/894605620081332224) | Guidance for building distinctive, intentional UI instead of templated defaults: plan the design first, then build. | Anthropic | Apache-2.0 | — | ✅ |
 | [Theme Factory](https://aibars.net/en/skills/894605634199359488) | Apply one of 10 ready-made color and font themes to slides, docs, reports or landing pages, or generate a new theme on the fly. | Anthropic | Apache-2.0 | — | ✅ |
 | [E-commerce Unit Economics](https://aibars.net/en/skills/895611922827972608) · Original | Find out what one order really earns after product cost, shipping, fees, returns and ads, then get break-even and target ROAS or CPA, a price for a target margin, and a check on how deep a discount can go. | AIBars | MIT | Low | ✅ |
@@ -36,21 +37,31 @@ AI models did the review and the trials, so please read the source and the risk 
 | [Systematic Debugging](https://aibars.net/en/skills/895089901731844096) | Find the root cause before you fix anything: a four-phase process of evidence, patterns, one hypothesis at a time and a tested fix, with a stop rule after three failed attempts. | Jesse Vincent | MIT | Medium | ✅ |
 | [Conversion Copywriting](https://aibars.net/en/skills/895074689435832320) | Write and rewrite marketing copy for homepages, landing, pricing and feature pages: clear headlines, strong CTAs, page structure, and a strict list of AI tells to avoid. | Corey Haines | MIT | Low | ✅ |
 | [Conversion Rate Optimization (CRO)](https://aibars.net/en/skills/895074761183596544) | Analyse a marketing page or form and get ranked recommendations: value proposition, headline, CTA, trust signals, objections and friction, with test ideas and copy alternatives. | Corey Haines | MIT | Low | ✅ |
+| [Google SEO Audit](https://aibars.net/en/skills/896036597110411264) · Original | Audit a page or site for Google Search from the HTML, robots.txt and Search Console data you give it: crawl and indexing blockers, titles, content quality, structured data and page experience, as a prioritized fix list. | AIBars | MIT | — | ✅ |
+| [Paper Reading](https://aibars.net/en/skills/896427684459188224) · Original | Read one research paper critically in three passes: what it claims, how it tests the claim, whether the evidence supports it, and what you can take from it, with quotes for the key claims and "not stated" where the text is silent. | AIBars | MIT | Low | ✅ |
+| [Study Plan](https://aibars.net/en/skills/896427730831413248) · Original | Build a realistic study plan from your goal, level and weekly hours: a feasibility check, stages with checkpoints, a weekly rhythm with spaced review, and rules for catching up when you fall behind. | AIBars | MIT | Low | ✅ |
 
 ## All Skills by category
 
 Legend: **Original** = written by AIBars (MIT) · **Risk**: Low / Medium / High, "—" means not rated yet (read the risk note on the page) · **Tried**: ✅ run for real with a recorded demo, ⚠️ not tried.
 
-### Web & UI Design (14)
+### Web & UI Design (21)
 
 | Skill | What it does | Author | License | Risk | Tried |
 |---|---|---|---|---|---|
+| [Design Taste Frontend](https://aibars.net/en/skills/896418145756254208) | Make the agent design landing pages, portfolios and redesigns that do not look templated: read the brief, state a design read, set three dials, pick a real design system when one fits, and pass a strict pre-flight check. | Leonxlnx | MIT | Medium | ✅ |
 | [Frontend Design](https://aibars.net/en/skills/894605620081332224) | Guidance for building distinctive, intentional UI instead of templated defaults: plan the design first, then build. | Anthropic | Apache-2.0 | — | ✅ |
 | [Theme Factory](https://aibars.net/en/skills/894605634199359488) | Apply one of 10 ready-made color and font themes to slides, docs, reports or landing pages, or generate a new theme on the fly. | Anthropic | Apache-2.0 | — | ✅ |
 | [Algorithmic Art](https://aibars.net/en/skills/894631082325184512) | Turns a theme into a short generative-art manifesto, then builds an interactive p5.js piece with seed navigation, parameter sliders and PNG export. | Anthropic | Apache-2.0 | — | ✅ |
+| [Animate](https://aibars.net/en/skills/896430456986406912) | Build an animation from scratch in the right order: should it animate at all, what purpose, which tool, which properties, which curve and duration, how it interrupts and exits. It writes the code and refuses to animate what should not move. | Emil Kowalski | MIT | Low | ✅ |
+| [Animation Vocabulary](https://aibars.net/en/skills/896430537978417152) | Describe a motion effect in your own words and get its exact name: "the bouncy thing when a popover opens" is Pop in, "the iOS rubber-band scroll" is Rubber-banding. Handy for briefing a designer or prompting an AI. | Emil Kowalski | MIT | Low | ✅ |
+| [Break UI](https://aibars.net/en/skills/896430496840683520) | Stress-test a component with the worst realistic data: long names, unbreakable emails, one-letter names, missing fields, 1,284 members, empty lists. It reports what broke, why, and the fix for each, and stops before changing anything. | Emil Kowalski | MIT | Low | ✅ |
 | [Design System (tokens and slides)](https://aibars.net/en/skills/894877786756616192) | Build a three-layer design token system (primitive, semantic, component), write component specs, and generate token-compliant HTML slide decks with Chart.js. | claudekit | MIT | Medium | ✅ |
+| [Design Engineering (Emil Kowalski)](https://aibars.net/en/skills/896430407678169088) | Review and build UI with Emil Kowalski's design-engineering craft: when not to animate, which easing and duration to use, springs, clip-path, gestures, performance and accessibility, with a required Before / After / Why review table. | Emil Kowalski | MIT | Low | ✅ |
+| [High-End Visual Design](https://aibars.net/en/skills/896418275830009856) | Teach the agent to design like a premium agency: exact fonts, spacing, shadows, nested card structure and motion curves that make a site feel expensive, plus a ban list of the cheap AI defaults. | Leonxlnx | MIT | Low | ✅ |
 | [Light and Dark Theme](https://aibars.net/en/skills/895472103242076160) · Original | Build light and dark mode that is correct in both: semantic color tokens, the system setting plus a manual toggle, no flash of the wrong theme on load, and contrast checked in both themes. | AIBars | MIT | Low | ✅ |
 | [Penpot UI/UX Design (via Penpot MCP)](https://aibars.net/en/skills/894931597240045568) | Design web, mobile and desktop interfaces inside Penpot through its MCP server, with design-system checks, component and accessibility rules and platform sizes. | awesome-copilot community | MIT | Medium | ✅ |
+| [Redesign Existing Projects](https://aibars.net/en/skills/896418190912131072) | Upgrade an existing website or app to premium quality without rewriting it: scan the stack, audit typography, color, layout, states and content for generic AI patterns, then apply targeted fixes in priority order. | Leonxlnx | MIT | Medium | ✅ |
 | [Responsive Layout Debugging](https://aibars.net/en/skills/895472114449256448) · Original | Find the real cause of layout bugs at specific screen widths: sideways scrolling, overflow, flex items that will not shrink, sticky that does not stick, 100vh on phones, and fixed bars under the browser UI. | AIBars | MIT | Low | ✅ |
 | [UI Internationalization (i18n)](https://aibars.net/en/skills/895472119838937088) · Original | Make an interface carry any language without redesign: message catalogs, locale-aware formatting, layouts that survive different text lengths, CJK and right-to-left support, and language switching with proper URLs. | AIBars | MIT | Low | ✅ |
 | [UI States Checklist](https://aibars.net/en/skills/895472127283826688) · Original | List every state a screen or component needs: loading, empty, error, partial, disabled, offline, permission denied and extreme content, and decide what the user sees and can do in each. | AIBars | MIT | Low | ✅ |
@@ -72,7 +83,7 @@ Legend: **Original** = written by AIBars (MIT) · **Risk**: Low / Medium / High,
 | [Returns and Refunds Playbook](https://aibars.net/en/skills/895612293981933568) · Original | Handle returns, refunds, damaged or lost parcels, chargebacks and angry messages fairly and with little loss: policy points, a case-handling process, reply drafts, escalation rules and a way to find why returns are high. | AIBars | MIT | Low | ✅ |
 | [Shopify Review Triage](https://aibars.net/en/skills/894885799689195520) | Turn public low-star Shopify App Store reviews you paste in into a P0-P3 brief with owners, next actions and an explicit bucket for items a human must read. | Shopify App Review Brief (independent) | MIT | Low | ✅ |
 
-### Image & Video (5)
+### Image & Video (7)
 
 | Skill | What it does | Author | License | Risk | Tried |
 |---|---|---|---|---|---|
@@ -81,6 +92,8 @@ Legend: **Original** = written by AIBars (MIT) · **Risk**: Low / Medium / High,
 | [Image Series Consistency](https://aibars.net/en/skills/895622770577379328) · Original | Make a set of AI images look like one set: a reusable style sheet and character sheet, fixed and variable parts of every prompt, reference-image workflow and a check for drift across pages. | AIBars | MIT | Low | ✅ |
 | [Poster and Design Prompts](https://aibars.net/en/skills/895622728336543744) · Original | Write prompts for posters, cards, covers and social graphics, and decide what the AI should draw and what to typeset yourself: layout, hierarchy, palette, empty areas for text and exact wording. | AIBars | MIT | Low | ✅ |
 | [Product Image Prompts](https://aibars.net/en/skills/895622685193932800) · Original | Write prompts for AI product images that stay honest: plain-background hero shots, lifestyle scenes, flat lays, detail close-ups, scale shots and mockups, matched to the real product. | AIBars | MIT | Low | ✅ |
+| [Video Production Guide](https://aibars.net/en/skills/896451644534034432) | Choose how to produce marketing video: programmatic (Hyperframes, Remotion), AI generation (Veo, Runway, Kling), AI avatars (HeyGen, Synthesia) or editing and repurposing, with model comparisons, prompting tips and ready workflows. | Corey Haines | MIT | Medium | ✅ |
+| [Video Studio](https://aibars.net/en/skills/896451707305988096) | Automatic video making and editing around local FFmpeg: render a text-card video from a JSON spec, cut silences from talking-head clips, burn SRT subtitles and polish for platforms. Written in Chinese; the commands need your own paths. | foryourhealth111-pixel | Apache-2.0 | Medium | ⚠️ Not tried |
 
 ### Social Content (8)
 
@@ -95,23 +108,27 @@ Legend: **Original** = written by AIBars (MIT) · **Risk**: Low / Medium / High,
 | [Social Content Calendar](https://aibars.net/en/skills/895769879054127104) · Original | Plan a realistic posting calendar from your goal, audience and weekly time: a few content pillars, a rhythm per platform, a dated table of posts with hooks and calls to action, batching, and a review plan. | AIBars | MIT | Low | ✅ |
 | [X Thread Writer](https://aibars.net/en/skills/895769892056469504) · Original | Write posts for X that say one thing clearly: a single sharp post, a thread, a quote post or a reply, with a standalone first post, one idea per post and an edit pass that cuts the filler. | AIBars | MIT | Low | ✅ |
 
-### Office & Docs (11)
+### Office & Docs (15)
 
 | Skill | What it does | Author | License | Risk | Tried |
 |---|---|---|---|---|---|
 | [Internal Comms](https://aibars.net/en/skills/894605627295535104) | Write internal communications in fixed company formats: 3P updates, company newsletters, FAQ answers and general announcements. | Anthropic | Apache-2.0 | — | ✅ |
 | [Convert Excel to Markdown](https://aibars.net/en/skills/894931862445887488) | Convert .xlsx workbooks into Markdown, with embedded images extracted and linked, so spreadsheet contents can be read, summarised and searched. | awesome-copilot community | MIT | Medium | ✅ |
+| [Excel Workbook Builder](https://aibars.net/en/skills/896460010010447872) · Original | Create, edit and check Excel (.xlsx) workbooks with Python and openpyxl: live formulas instead of pasted values, separate inputs, formatting, charts, safe edits that keep the original, and honest checks of what was and was not calculated. | AIBars | MIT | Medium | ✅ |
 | [File Organizer](https://aibars.net/en/skills/894706720520278016) | Analyses a messy folder, proposes a tidier structure and finds duplicates, then reorganises only after you approve the plan. | ComposioHQ community contributors | Apache-2.0 | — | ✅ |
 | [Invoice Organizer](https://aibars.net/en/skills/894706725737992192) | Reads a folder of invoices and receipts, renames them consistently, sorts them into folders and writes a CSV summary for your accountant. | ComposioHQ community contributors | Apache-2.0 | — | ✅ |
 | [MarkItDown: Files to Markdown](https://aibars.net/en/skills/895740598513045504) | Convert PDF, Word, PowerPoint, Excel, HTML and other files to clean Markdown with Microsoft MarkItDown, for search, analysis and feeding documents to an AI, with safe local defaults. | K-Dense Inc. | MIT | Medium | ✅ |
 | [Markdown to Word (.docx)](https://aibars.net/en/skills/894931730967040000) | Convert Markdown files into formatted Word documents with a title page, table of contents, styled tables and embedded PNG images, using a pure JavaScript script. | awesome-copilot community | MIT | Medium | ✅ |
 | [Meeting Insights Analyzer](https://aibars.net/en/skills/894706738278961152) | Analyses your meeting transcripts for communication patterns such as conflict avoidance, hedging and speaking ratio, with timestamped examples and better phrasings. | ComposioHQ community contributors | Apache-2.0 | — | ✅ |
 | [Meeting Minutes](https://aibars.net/en/skills/894885833574977536) | Write concise, actionable minutes for internal meetings of up to an hour, with decisions and action items that always have an owner and a due date. | awesome-copilot community | MIT | Low | ✅ |
+| [PDF Toolkit](https://aibars.net/en/skills/896504209388867584) · Original | Handle common PDF jobs in Python: extract text and tables, merge, split and rotate pages, add watermarks, fill forms and generate reports. Never overwrites the original and re-opens the result to verify pages and text. | AIBars | MIT | Medium | ✅ |
+| [PowerPoint Deck Builder](https://aibars.net/en/skills/896504256717393920) · Original | Create, edit and check PowerPoint (.pptx) decks with Python and python-pptx: real layouts and placeholders, tables, charts, speaker notes, safe edits that keep the original and a re-open check of slides and notes. | AIBars | MIT | Medium | ✅ |
 | [Slides (strategic HTML presentations)](https://aibars.net/en/skills/894881177427775488) | Plan and write persuasive HTML presentations: deck structure, a layout for each slide, copywriting formulas, and Chart.js charts, with keyboard navigation built in. | claudekit | MIT | Low | ✅ |
 | [Spreadsheet Skill](https://aibars.net/en/skills/895740561389260800) | Create, edit, analyze and format Excel and CSV spreadsheets with Python: real formulas instead of pasted results, preserved formatting, sensible layouts, and checks before you rely on them. | OpenAI | Apache-2.0 | Medium | ✅ |
 | [Tailored Resume Generator](https://aibars.net/en/skills/894706754812907520) | Tailors your resume to a specific job description, matching keywords and requirements to your real experience. | ComposioHQ community contributors | Apache-2.0 | — | ✅ |
+| [Word Document Builder](https://aibars.net/en/skills/896459965693431808) · Original | Create, edit and check Word (.docx) files with Python and python-docx: real styles, tables, headers, footers and page-number fields, edits that keep the original untouched, and a re-open check of the result. | AIBars | MIT | Medium | ✅ |
 
-### Developer Productivity (37)
+### Developer Productivity (40)
 
 | Skill | What it does | Author | License | Risk | Tried |
 |---|---|---|---|---|---|
@@ -125,14 +142,17 @@ Legend: **Original** = written by AIBars (MIT) · **Risk**: Low / Medium / High,
 | [Caveman Review](https://aibars.net/en/skills/894685154373799936) | Turns code review into one line per finding: location, problem and fix, with an optional severity tag. | Julius Brussee | Apache-2.0 | — | ✅ |
 | [Changelog Generator](https://aibars.net/en/skills/894706715524861952) | Turns your git commits into a customer-friendly changelog, grouped by features, improvements, security and fixes. | ComposioHQ community contributors | Apache-2.0 | — | ✅ |
 | [Chrome DevTools Agent](https://aibars.net/en/skills/894931664827060224) | Control and inspect a live Chrome browser through the Chrome DevTools MCP: navigate, click, fill forms, take snapshots and screenshots, read the console and network, and profile performance. | awesome-copilot community | MIT | High | ✅ |
+| [Code Review (Standards and Spec)](https://aibars.net/en/skills/896432990077587456) | Review the changes since a commit, branch or tag along two separate axes: Standards (does it follow the repo's documented conventions and a baseline of common code smells) and Spec (does it do what the issue or spec asked), run in parallel and reported side by side. | Matt Pocock | MIT | Medium | ⚠️ Not tried |
 | [Diagnosing Bugs](https://aibars.net/en/skills/894699006293446656) | A six-phase loop for hard bugs: build a reproduction that fails on exactly this bug, minimise it, test ranked hypotheses, then fix with a regression test. | Matt Pocock | MIT | — | ✅ |
 | [Domain Modeling](https://aibars.net/en/skills/894699033006968832) | Builds your project's shared vocabulary: challenges fuzzy terms, tests them with edge cases, and records them in GLOSSARY.md and ADRs. | Matt Pocock | MIT | — | ✅ |
 | [Draw.io Diagram Generator](https://aibars.net/en/skills/894931796616286208) | Create, edit and validate draw.io diagram files with correct mxGraph XML: flowcharts, architecture, sequence, ER and UML class diagrams, with templates and helper scripts. | awesome-copilot community | MIT | Medium | ✅ |
 | [Draw.io Diagrams and PNG Export](https://aibars.net/en/skills/894931763850383360) | Generate native .drawio diagrams and export them to PNG, SVG or PDF with the editable XML embedded, using a bundled Node.js export script. | awesome-copilot community | MIT | Medium | ✅ |
 | [Excalidraw Diagram Generator](https://aibars.net/en/skills/894931829675790336) | Turn a plain-language description into an Excalidraw diagram file: flowcharts, mind maps, architecture, sequence, ER, class and swimlane diagrams, with templates and helper scripts. | awesome-copilot community | MIT | Medium | ✅ |
+| [Full-Output Enforcement](https://aibars.net/en/skills/896418233392041984) | Stop the agent from cutting corners: no placeholder code, no "rest follows the same pattern", no skipped sections. It counts the deliverables, writes every one in full and pauses cleanly at a token limit. | Leonxlnx | MIT | Low | ✅ |
 | [Fix Failing GitHub CI](https://aibars.net/en/skills/895740527281180672) | Debug a failing GitHub Actions check on a pull request: find the failing checks, pull the logs, summarize the cause, draft a fix plan, and change code only after you approve. | OpenAI | Apache-2.0 | Medium | ⚠️ Not tried |
 | [Grilling](https://aibars.net/en/skills/894699000484335616) | Has your agent interview you in numbered rounds, with a recommended answer for each question, until every decision in your plan is settled. | Matt Pocock | MIT | — | ✅ |
 | [Handoff](https://aibars.net/en/skills/894699014652694528) | Compacts the current conversation into a handoff document so a fresh agent session can pick the work up. | Matt Pocock | MIT | — | ✅ |
+| [Improve Codebase Architecture](https://aibars.net/en/skills/896433124773466112) | Scan a codebase for refactors that turn shallow modules into deep ones, present them as a visual HTML report with before and after diagrams, then walk through whichever one you pick in a questioning loop. | Matt Pocock | MIT | Medium | ⚠️ Not tried |
 | [Incident Post-Mortem (blameless)](https://aibars.net/en/skills/894885971676631040) | Guide a team through a structured, blameless post-mortem: timeline, root cause with the 5 Whys, impact numbers and action items with owners and due dates. | awesome-copilot community | MIT | Medium | ✅ |
 | [Investigate First](https://aibars.net/en/skills/894685166356926464) | Makes your agent find and prove the cause of a bug before it changes any code. | Julius Brussee | Apache-2.0 | — | ✅ |
 | [Markdown and Mermaid Writing](https://aibars.net/en/skills/895740636475691008) | Write Markdown documents with Mermaid diagrams for workflows, schemas, timelines and architecture: syntax guides for 21 diagram types, document templates, accessibility metadata and render checks. | Clayton Young / Superior Byte Works | Apache-2.0 | Medium | ✅ |
@@ -153,12 +173,13 @@ Legend: **Original** = written by AIBars (MIT) · **Risk**: Low / Medium / High,
 | [Writing for Agents](https://aibars.net/en/skills/894699028359680000) | A reference for writing documents agents read, such as skills, CLAUDE.md and AGENTS.md, so they behave predictably. | Matt Pocock | MIT | — | ✅ |
 | [Writing Implementation Plans](https://aibars.net/en/skills/895089973114703872) | Turn a spec into a step-by-step implementation plan another engineer can follow: exact files, interfaces, test-first steps with expected output and a self-review. | Jesse Vincent | MIT | Medium | ✅ |
 
-### Brand & Marketing (26)
+### Brand & Marketing (27)
 
 | Skill | What it does | Author | License | Risk | Tried |
 |---|---|---|---|---|---|
 | [Conversion Copywriting](https://aibars.net/en/skills/895074689435832320) | Write and rewrite marketing copy for homepages, landing, pricing and feature pages: clear headlines, strong CTAs, page structure, and a strict list of AI tells to avoid. | Corey Haines | MIT | Low | ✅ |
 | [Conversion Rate Optimization (CRO)](https://aibars.net/en/skills/895074761183596544) | Analyse a marketing page or form and get ranked recommendations: value proposition, headline, CTA, trust signals, objections and friction, with test ideas and copy alternatives. | Corey Haines | MIT | Low | ✅ |
+| [Google SEO Audit](https://aibars.net/en/skills/896036597110411264) · Original | Audit a page or site for Google Search from the HTML, robots.txt and Search Console data you give it: crawl and indexing blockers, titles, content quality, structured data and page experience, as a prioritized fix list. | AIBars | MIT | — | ✅ |
 | [A/B Testing and Experimentation](https://aibars.net/en/skills/895074798055723008) | Plan A/B tests that give valid results: hypothesis, sample size and duration, metrics, variants and analysis, plus a growth experimentation program with ICE scoring and a playbook. | Corey Haines | MIT | Low | ✅ |
 | [Ad Campaign Analyzer](https://aibars.net/en/skills/894885732513222656) | Turn an ad performance export into clear decisions: what to pause, what to scale, what to test, and how to reallocate budget across channels. | GooseWorks | MIT | Medium | ✅ |
 | [AI SEO](https://aibars.net/en/skills/894666349127929856) | Audit and improve how product content can be found, extracted, and cited in AI answers. | Corey Haines | MIT | — | ✅ |
@@ -184,12 +205,18 @@ Legend: **Original** = written by AIBars (MIT) · **Risk**: Low / Medium / High,
 | [SEO Audit](https://aibars.net/en/skills/894677560510910464) | Produce evidence-based technical, on-page, and multilingual SEO audits with prioritized fixes. | Corey Haines | MIT | — | ✅ |
 | [Server-Side Conversion Tracking](https://aibars.net/en/skills/894931698423435264) | Fix under-reported ad conversions: capture click ids, carry them to the order, send purchases server-to-server to Facebook, TikTok, Google and Bing, dedupe and verify. | awesome-copilot community | MIT | Medium | ✅ |
 
-### Research & Learning (2)
+### Research & Learning (8)
 
 | Skill | What it does | Author | License | Risk | Tried |
 |---|---|---|---|---|---|
+| [Paper Reading](https://aibars.net/en/skills/896427684459188224) · Original | Read one research paper critically in three passes: what it claims, how it tests the claim, whether the evidence supports it, and what you can take from it, with quotes for the key claims and "not stated" where the text is silent. | AIBars | MIT | Low | ✅ |
+| [Study Plan](https://aibars.net/en/skills/896427730831413248) · Original | Build a realistic study plan from your goal, level and weekly hours: a feasibility check, stages with checkpoints, a weekly rhythm with spaced review, and rules for catching up when you fall behind. | AIBars | MIT | Low | ✅ |
 | [Discernment Nudge](https://aibars.net/en/skills/894625433440751616) | After a substantive answer you may act on, adds 2-3 specific follow-up questions that help you check facts, probe the reasoning and notice missing context. | Anthropic | Apache-2.0 | — | ✅ |
 | [Doublecheck (AI output verification)](https://aibars.net/en/skills/894885936842936320) | Check AI-written text: extract every verifiable claim, look for sources you can open yourself, and flag likely hallucinations in a structured report. | awesome-copilot community | MIT | Medium | ✅ |
+| [Flashcards and Quiz](https://aibars.net/en/skills/896427777283330048) · Original | Turn study material you provide into flashcards and a graded quiz for active recall, with sources, explanations, common mistakes and a spaced-review schedule, and nothing added from outside your material. | AIBars | MIT | Low | ✅ |
+| [Literature Review](https://aibars.net/en/skills/896427636820283392) · Original | Turn the papers and notes you provide into a structured review: themes, agreement and disagreement, methods, gaps and a source map, with no invented citations and the strength of evidence stated for each theme. | AIBars | MIT | Low | ✅ |
+| [Research Question Framing](https://aibars.net/en/skills/896427823680720896) · Original | Turn a vague topic into a researchable question: diagnose what is vague, narrow step by step, test each candidate for clarity, feasibility and value, then frame the chosen one with definitions, scope, assumptions and evidence. | AIBars | MIT | Low | ✅ |
+| [Teach](https://aibars.net/en/skills/896432932938584064) | Turn the current folder into a teaching workspace and learn a topic over several sessions: a stated mission, trusted resources, short interactive HTML lessons, reference sheets and learning records that decide what to teach next. | Matt Pocock | MIT | Medium | ⚠️ Not tried |
 
 ## Install a Skill
 

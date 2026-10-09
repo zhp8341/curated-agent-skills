@@ -2,10 +2,10 @@
 
 [English](README.md) | **简体中文**
 
-[![Skills](https://img.shields.io/badge/skills-110-4f46e5)](https://aibars.net/zh/skills)
+[![Skills](https://img.shields.io/badge/skills-133-4f46e5)](https://aibars.net/zh/skills)
 [![License](https://img.shields.io/badge/list-MIT-green)](#协议)
 
-为 Claude Code、Codex、Cursor、GitHub Copilot、Gemini CLI 等 AI 编程代理精选的 **110 个 Skills**。每个 Skill 上架前都经过检查，大多数真实试用过并附有运行演示，每个都标明来源、协议和风险。我们没有亲自试用过的，会明确标出。
+为 Claude Code、Codex、Cursor、GitHub Copilot、Gemini CLI 等 AI 编程代理精选的 **133 个 Skills**。每个 Skill 上架前都经过检查，大多数真实试用过并附有运行演示，每个都标明来源、协议和风险。我们没有亲自试用过的，会明确标出。
 
 **带演示和搜索的完整目录：[aibars.net/zh/skills](https://aibars.net/zh/skills)**
 
@@ -17,7 +17,7 @@
 2. **读完源码。** 我们读完 `SKILL.md` 和随附的所有文件（包括脚本），查找有没有删除、覆盖、读取密钥，或下载并运行代码的行为。
 3. **真实试用。** 在干净环境里用一个真实的请求运行每个 Skill。页面上的演示是原样记录的输出，没有修改。结果有错或只验证了一部分的，页面里会写明。
 4. **标注风险。** 每个 Skill 都有风险说明，很多还标了等级（低、中、高）。会运行脚本、需要联网或凭据、或操控真实浏览器的，会在前面直接说明。
-5. **如实说明没做到的。** 有 1 个 Skill 我们没能试用（比如需要真实的 GitHub 账号），已标为 **⚠️ 未试用**。
+5. **如实说明没做到的。** 有 5 个 Skill 我们没能试用（比如需要真实的代码仓库、问题跟踪器或我们无法搭建的工具链），已标为 **⚠️ 未试用**。
 
 审核和试用是由 AI 模型完成的，所以使用 Skill 之前请自己看一遍源码和风险说明。这里的内容不构成任何保证。
 
@@ -25,6 +25,7 @@
 
 | Skill | 做什么 | 作者 | 协议 | 风险 | 试用 |
 |---|---|---|---|---|---|
+| [设计品味前端 Design Taste Frontend](https://aibars.net/zh/skills/896418145756254208) | 让智能体做出不像模板的落地页、作品集和改版：先读需求并给出“设计判断”，设定三个刻度，合适时选用真实设计系统，最后过一遍严格的发布前检查。 | Leonxlnx | MIT | 中 | ✅ |
 | [前端设计 Frontend Design](https://aibars.net/zh/skills/894605620081332224) | 帮助 AI 做出有个性、不落俗套的界面设计：先出设计方案，对照需求自查后再动手实现。 | Anthropic | Apache-2.0 | — | ✅ |
 | [主题工厂 Theme Factory](https://aibars.net/zh/skills/894605634199359488) | 为幻灯片、文档、报告或落地页套用 10 套现成的配色与字体主题，也可以现场生成新主题。 | Anthropic | Apache-2.0 | — | ✅ |
 | [电商单位经济与定价 Unit Economics](https://aibars.net/zh/skills/895611922827972608) · 原创 | 算清一单到底赚多少：扣掉成本、运费、手续费、退货和广告之后，给出保本及目标 ROAS 或 CPA、达到目标利润率所需的价格，以及折扣最多能打到多深。 | AIBars | MIT | 低 | ✅ |
@@ -36,21 +37,31 @@
 | [系统化调试 Systematic Debugging](https://aibars.net/zh/skills/895089901731844096) | 先找根因，再动手修：证据、模式、一次一个假设、带测试的修复，共四个阶段，并在失败三次后强制停下。 | Jesse Vincent | MIT | 中 | ✅ |
 | [转化文案 Conversion Copywriting](https://aibars.net/zh/skills/895074689435832320) | 为首页、落地页、定价页和功能页写作和改写营销文案：清晰的标题、有力的 CTA、页面结构，以及一份必须避开的“AI 腔”严格清单。 | Corey Haines | MIT | 低 | ✅ |
 | [转化率优化 CRO](https://aibars.net/zh/skills/895074761183596544) | 分析营销页面或表单，得到排好序的改进建议：价值主张、标题、CTA、信任信号、异议和阻力，附测试思路和文案备选。 | Corey Haines | MIT | 低 | ✅ |
+| [Google SEO 审计](https://aibars.net/zh/skills/896036597110411264) · 原创 | 根据你提供的 HTML、robots.txt 和 Search Console 数据，从 Google 搜索的角度审计页面或站点：抓取与收录障碍、标题、内容质量、结构化数据和页面体验，给出按优先级排序的修复清单。 | AIBars | MIT | — | ✅ |
+| [论文阅读 Paper Reading](https://aibars.net/zh/skills/896427684459188224) · 原创 | 分三遍批判性地读一篇论文：它主张什么、怎么检验、证据是否站得住，以及你能从中得到什么。关键主张附原文引用，文中没说的就写“未说明”。 | AIBars | MIT | 低 | ✅ |
+| [学习计划 Study Plan](https://aibars.net/zh/skills/896427730831413248) · 原创 | 根据你的目标、现有水平和每周可用时间，做出一份切实可行的学习计划：可行性判断、带检查点的阶段、含间隔复习的每周安排，以及落后时的补救规则。 | AIBars | MIT | 低 | ✅ |
 
 ## 全部 Skills（按分类）
 
 图例：**原创** = AIBars 原创 Skill（MIT）· **风险**：低 / 中 / 高，"—" 表示还没评级（请看页面里的风险说明）· **试用**：✅ 真实运行并有演示记录，⚠️ 未试用。
 
-### 网页与界面设计（14）
+### 网页与界面设计（21）
 
 | Skill | 做什么 | 作者 | 协议 | 风险 | 试用 |
 |---|---|---|---|---|---|
+| [设计品味前端 Design Taste Frontend](https://aibars.net/zh/skills/896418145756254208) | 让智能体做出不像模板的落地页、作品集和改版：先读需求并给出“设计判断”，设定三个刻度，合适时选用真实设计系统，最后过一遍严格的发布前检查。 | Leonxlnx | MIT | 中 | ✅ |
 | [前端设计 Frontend Design](https://aibars.net/zh/skills/894605620081332224) | 帮助 AI 做出有个性、不落俗套的界面设计：先出设计方案，对照需求自查后再动手实现。 | Anthropic | Apache-2.0 | — | ✅ |
 | [主题工厂 Theme Factory](https://aibars.net/zh/skills/894605634199359488) | 为幻灯片、文档、报告或落地页套用 10 套现成的配色与字体主题，也可以现场生成新主题。 | Anthropic | Apache-2.0 | — | ✅ |
 | [算法艺术 Algorithmic Art](https://aibars.net/zh/skills/894631082325184512) | 把一个主题写成一段生成艺术宣言，再做成带种子切换、参数滑块和 PNG 导出的 p5.js 交互作品。 | Anthropic | Apache-2.0 | — | ✅ |
+| [动画构建 Animate](https://aibars.net/zh/skills/896430456986406912) | 按正确的顺序从零构建一个动画：该不该动、目的是什么、用什么工具、动哪些属性、用什么曲线和时长、怎么被打断、怎么退出。它会写出代码，也会拒绝给不该动的东西加动画。 | Emil Kowalski | MIT | 低 | ✅ |
+| [动画术语表 Animation Vocabulary](https://aibars.net/zh/skills/896430537978417152) | 用你自己的话描述一个动效，得到它的准确名称：“弹窗打开时那种弹一下的效果”是 Pop in，“iOS 那种拉到头会回弹的滚动”是 Rubber-banding。适合用来给设计师写需求或给 AI 写提示词。 | Emil Kowalski | MIT | 低 | ✅ |
+| [破坏界面 Break UI](https://aibars.net/zh/skills/896430496840683520) | 用现实中最坏的数据给组件做压力测试：很长的姓名、没法折行的邮箱、一个字的名字、缺失字段、1284 个成员、空列表。它会报告什么坏了、为什么，以及每个问题的修法，并且在动手改之前先停下。 | Emil Kowalski | MIT | 低 | ✅ |
 | [设计系统 Design System（令牌与幻灯片）](https://aibars.net/zh/skills/894877786756616192) | 搭建三层设计令牌（基础值、语义、组件）、编写组件规范，并生成符合令牌规范、带 Chart.js 图表的 HTML 幻灯片。 | claudekit | MIT | 中 | ✅ |
+| [设计工程 Design Engineering（Emil Kowalski）](https://aibars.net/zh/skills/896430407678169088) | 用 Emil Kowalski 的设计工程手艺来评审和构建界面：什么时候不该做动画、用哪种缓动和时长、弹簧、clip-path、手势、性能与无障碍，并要求用“修改前 / 修改后 / 原因”的表格给出评审。 | Emil Kowalski | MIT | 低 | ✅ |
+| [高端视觉设计 High-End Visual Design](https://aibars.net/zh/skills/896418275830009856) | 教智能体像高端设计机构那样做设计：用确切的字体、间距、阴影、嵌套卡片结构和动效曲线让网站显得“贵”，并附一份廉价 AI 默认写法的禁用清单。 | Leonxlnx | MIT | 低 | ✅ |
 | [深浅色双主题 Light and Dark Theme](https://aibars.net/zh/skills/895472103242076160) · 原创 | 做出在两种主题下都正确的深色与浅色模式：语义颜色令牌、跟随系统设置加手动切换、加载时不闪错误主题，并在两种主题里分别核对对比度。 | AIBars | MIT | 低 | ✅ |
 | [Penpot UI/UX 设计（通过 Penpot MCP）](https://aibars.net/zh/skills/894931597240045568) | 通过 Penpot 的 MCP 服务在 Penpot 里设计网页、移动端和桌面端界面，带有设计系统检查、组件与无障碍规则和各平台尺寸。 | awesome-copilot community | MIT | 中 | ✅ |
+| [改版现有项目 Redesign Existing Projects](https://aibars.net/zh/skills/896418190912131072) | 在不重写的前提下，把现有网站或应用升级到高级质感：先扫描技术栈，再按字体、色彩、布局、状态和内容审计“AI 通用套路”，然后按优先级做有针对性的修复。 | Leonxlnx | MIT | 中 | ✅ |
 | [响应式布局排查 Responsive Layout Debugging](https://aibars.net/zh/skills/895472114449256448) · 原创 | 找出在特定屏幕宽度下布局出问题的真正原因：横向滚动、溢出、不肯缩小的 flex 子项、不吸附的 sticky、手机上的 100vh，以及固定栏被浏览器界面遮住。 | AIBars | MIT | 低 | ✅ |
 | [界面国际化适配 UI Internationalization](https://aibars.net/zh/skills/895472119838937088) · 原创 | 让界面不重新设计也能承载任何语言：消息文案库、按地区格式化、能适应不同文字长度的布局、中日韩和从右到左的支持，以及带规范网址的语言切换。 | AIBars | MIT | 低 | ✅ |
 | [组件状态清单 UI States Checklist](https://aibars.net/zh/skills/895472127283826688) · 原创 | 列出一个界面或组件需要的每一种状态：加载、空、错误、部分成功、禁用、离线、无权限和极端内容，并为每种状态定好用户看到什么、能做什么。 | AIBars | MIT | 低 | ✅ |
@@ -72,7 +83,7 @@
 | [售后与退货处理 Returns and Refunds Playbook](https://aibars.net/zh/skills/895612293981933568) · 原创 | 公平且少亏地处理退货、退款、包裹破损或丢失、拒付和愤怒的客户来信：政策要点、案件处理流程、回复草稿、升级规则，以及找出退货率偏高的原因。 | AIBars | MIT | 低 | ✅ |
 | [Shopify 评价分诊 Shopify Review Triage](https://aibars.net/zh/skills/894885799689195520) | 把你粘贴的 Shopify 应用商店公开低分评价整理成 P0~P3 简报，写明负责人、下一步，并为必须由人来读的条目单独设一类。 | Shopify App Review Brief (independent) | MIT | 低 | ✅ |
 
-### 图文与视频（5）
+### 图文与视频（7）
 
 | Skill | 做什么 | 作者 | 协议 | 风险 | 试用 |
 |---|---|---|---|---|---|
@@ -81,6 +92,8 @@
 | [系列图一致性 Image Series Consistency](https://aibars.net/zh/skills/895622770577379328) · 原创 | 让一组 AI 图像看起来像同一套：可复用的风格表和角色表、每条提示词里的固定与可变部分、参考图工作流，以及检查跨页是否“跑偏”。 | AIBars | MIT | 低 | ✅ |
 | [海报与设计稿提示词 Poster and Design Prompts](https://aibars.net/zh/skills/895622728336543744) · 原创 | 为海报、卡片、封面和社交媒体图写提示词，并决定哪些交给 AI 画、哪些自己排版：版式、层次、配色、给文字留的空白区域和必须一字不差的文案。 | AIBars | MIT | 低 | ✅ |
 | [产品与电商图提示词 Product Image Prompts](https://aibars.net/zh/skills/895622685193932800) · 原创 | 为 AI 商品图写提示词并保持真实：纯色背景主图、场景图、平铺图、细节特写、尺寸对比图和样机图，全都要和真实商品对得上。 | AIBars | MIT | 低 | ✅ |
+| [视频制作指南 Video](https://aibars.net/zh/skills/896451644534034432) | 帮你选择营销视频的制作方式：程序化（Hyperframes、Remotion）、AI 生成（Veo、Runway、Kling）、AI 数字人（HeyGen、Synthesia）或剪辑与二次利用，附模型对比、提示词技巧和现成流程。 | Corey Haines | MIT | 中 | ✅ |
+| [视频工作室 Video Studio](https://aibars.net/zh/skills/896451707305988096) | 围绕本地 FFmpeg 的自动视频制作与剪辑：按 JSON 规格渲染文字卡片视频，去掉口播视频里的静音，烧录 SRT 字幕，并按平台规格打磨。说明为中文，命令里的路径需要换成你自己的。 | foryourhealth111-pixel | Apache-2.0 | 中 | ⚠️ 未试用 |
 
 ### 社交内容（8）
 
@@ -95,23 +108,27 @@
 | [社交内容日历 Social Content Calendar](https://aibars.net/zh/skills/895769879054127104) · 原创 | 根据你的目标、受众和每周可用时间，排出一份能坚持下去的发布日历：几个内容支柱、每个平台的节奏、带选题和行动号召的带日期发布表、批量制作和复盘计划。 | AIBars | MIT | 低 | ✅ |
 | [X 帖子与长串写作 X Thread Writer](https://aibars.net/zh/skills/895769892056469504) · 原创 | 为 X 写把一件事说清楚的帖子：一条有力的单帖、一串长帖、引用帖或回复，首帖能独立成立，每帖只讲一个点，并经过删去废话的编辑。 | AIBars | MIT | 低 | ✅ |
 
-### 办公与文档（11）
+### 办公与文档（15）
 
 | Skill | 做什么 | 作者 | 协议 | 风险 | 试用 |
 |---|---|---|---|---|---|
 | [内部沟通 Internal Comms](https://aibars.net/zh/skills/894605627295535104) | 按固定的公司格式写内部沟通文档：3P 周更、公司简报、FAQ 回复和一般通知。 | Anthropic | Apache-2.0 | — | ✅ |
 | [Excel 转 Markdown](https://aibars.net/zh/skills/894931862445887488) | 把 .xlsx 工作簿转成 Markdown，并提取、链接其中的内嵌图片，方便读取、总结和检索表格内容。 | awesome-copilot community | MIT | 中 | ✅ |
+| [Excel 工作簿生成 Excel Workbook Builder](https://aibars.net/zh/skills/896460010010447872) · 原创 | 用 Python 和 openpyxl 创建、修改和检查 Excel（.xlsx）工作簿：用实时公式而不是粘贴数值，输入单独放置，设置格式、图表，修改时保留原文件，并如实说明哪些结果算过、哪些没算。 | AIBars | MIT | 中 | ✅ |
 | [文件整理助手 File Organizer](https://aibars.net/zh/skills/894706720520278016) | 分析杂乱的文件夹，提出更清晰的结构并找出重复文件，经你确认方案后才动手整理。 | ComposioHQ community contributors | Apache-2.0 | — | ✅ |
 | [发票整理助手 Invoice Organizer](https://aibars.net/zh/skills/894706725737992192) | 读取一个装满发票和收据的文件夹，统一重命名、分类归档，并生成给会计用的 CSV 汇总。 | ComposioHQ community contributors | Apache-2.0 | — | ✅ |
 | [MarkItDown 文件转 Markdown](https://aibars.net/zh/skills/895740598513045504) | 用微软的 MarkItDown 把 PDF、Word、PowerPoint、Excel、HTML 等文件转成整洁的 Markdown，方便搜索、分析和交给 AI 处理，默认只在本机安全地运行。 | K-Dense Inc. | MIT | 中 | ✅ |
 | [Markdown 转 Word（.docx）](https://aibars.net/zh/skills/894931730967040000) | 用纯 JavaScript 脚本把 Markdown 文件转成带封面、目录、带样式表格和内嵌 PNG 图片的 Word 文档。 | awesome-copilot community | MIT | 中 | ✅ |
 | [会议洞察分析 Meeting Insights Analyzer](https://aibars.net/zh/skills/894706738278961152) | 分析你的会议转录，找出回避冲突、含糊其辞、发言占比等沟通模式，附带时间戳的原话示例和更好的说法。 | ComposioHQ community contributors | Apache-2.0 | — | ✅ |
 | [会议纪要 Meeting Minutes](https://aibars.net/zh/skills/894885833574977536) | 为一小时以内的内部会议写出简洁、可执行的纪要，决议和待办事项一定有负责人和截止日期。 | awesome-copilot community | MIT | 低 | ✅ |
+| [PDF 工具箱 PDF Toolkit](https://aibars.net/zh/skills/896504209388867584) · 原创 | 用 Python 处理常见的 PDF 任务：提取文字和表格，合并、拆分、旋转页面，加水印，填写表单，生成报告。不覆盖原文件，并在保存后重新打开核对页数和文字。 | AIBars | MIT | 中 | ✅ |
+| [PPT 演示文稿生成 PowerPoint Deck Builder](https://aibars.net/zh/skills/896504256717393920) · 原创 | 用 Python 和 python-pptx 创建、修改和检查 PowerPoint（.pptx）：真正的版式和占位符、表格、图表、演讲者备注，修改时保留原文件，并在保存后重新打开核对幻灯片和备注。 | AIBars | MIT | 中 | ✅ |
 | [策略幻灯片 Slides（HTML 演示）](https://aibars.net/zh/skills/894881177427775488) | 规划并写出有说服力的 HTML 演示文稿：整体结构、每页版式、文案公式和 Chart.js 图表，自带键盘翻页。 | claudekit | MIT | 低 | ✅ |
 | [电子表格 Spreadsheet Skill](https://aibars.net/zh/skills/895740561389260800) | 用 Python 创建、编辑、分析和排版 Excel 与 CSV 表格：用真正的公式而不是贴进去的结果，保留格式，布局合理，用之前先做检查。 | OpenAI | Apache-2.0 | 中 | ✅ |
 | [定制简历生成器 Tailored Resume Generator](https://aibars.net/zh/skills/894706754812907520) | 根据具体的职位描述定制你的简历，把关键词和要求与你的真实经历对上。 | ComposioHQ community contributors | Apache-2.0 | — | ✅ |
+| [Word 文档生成 Word Document Builder](https://aibars.net/zh/skills/896459965693431808) · 原创 | 用 Python 和 python-docx 创建、修改和检查 Word（.docx）文件：真正的样式、表格、页眉页脚和页码字段，修改时不动原文件，并在保存后重新打开检查结果。 | AIBars | MIT | 中 | ✅ |
 
-### 开发提效（37）
+### 开发提效（40）
 
 | Skill | 做什么 | 作者 | 协议 | 风险 | 试用 |
 |---|---|---|---|---|---|
@@ -125,14 +142,17 @@
 | [Caveman 代码审查](https://aibars.net/zh/skills/894685154373799936) | 把代码审查意见压缩成每个问题一行：位置、问题、修法，可附严重程度标记。 | Julius Brussee | Apache-2.0 | — | ✅ |
 | [更新日志生成器 Changelog Generator](https://aibars.net/zh/skills/894706715524861952) | 把 git 提交改写成用户看得懂的更新日志，按新功能、改进、安全和修复分组。 | ComposioHQ community contributors | Apache-2.0 | — | ✅ |
 | [Chrome DevTools 代理](https://aibars.net/zh/skills/894931664827060224) | 通过 Chrome DevTools MCP 控制并检查一个正在运行的 Chrome：导航、点击、填表、截图和快照、读取控制台和网络，并做性能分析。 | awesome-copilot community | MIT | 高 | ✅ |
+| [代码评审（规范与需求）Code Review](https://aibars.net/zh/skills/896432990077587456) | 按两条互相独立的轴评审某个提交、分支或标签以来的改动：规范（是否符合仓库文档里的约定和一组常见代码异味基线）和需求（是否做了 issue 或需求文档要求的事），并行执行，并排报告。 | Matt Pocock | MIT | 中 | ⚠️ 未试用 |
 | [诊断 Bug Diagnosing Bugs](https://aibars.net/zh/skills/894699006293446656) | 处理疑难 bug 的六阶段流程：先做出恰好能在这个 bug 上变红的复现，再缩小、验证排序后的假设，最后带回归测试修复。 | Matt Pocock | MIT | — | ✅ |
 | [领域建模 Domain Modeling](https://aibars.net/zh/skills/894699033006968832) | 建立项目的共同词汇：质疑含糊的术语，用边界情况检验，并记录到 GLOSSARY.md 和 ADR 里。 | Matt Pocock | MIT | — | ✅ |
 | [Draw.io 图表生成器](https://aibars.net/zh/skills/894931796616286208) | 用正确的 mxGraph XML 创建、编辑并校验 draw.io 图表文件：流程图、架构图、时序图、ER 图和 UML 类图，附模板和辅助脚本。 | awesome-copilot community | MIT | 中 | ✅ |
 | [Draw.io 图表与 PNG 导出](https://aibars.net/zh/skills/894931763850383360) | 生成原生 .drawio 图表，并用随包的 Node.js 导出脚本导出为 PNG、SVG 或 PDF，同时嵌入可编辑的 XML。 | awesome-copilot community | MIT | 中 | ✅ |
 | [Excalidraw 图表生成器](https://aibars.net/zh/skills/894931829675790336) | 把一段自然语言描述变成 Excalidraw 图表文件：流程图、思维导图、架构图、时序图、ER 图、类图和泳道图，附模板和辅助脚本。 | awesome-copilot community | MIT | 中 | ✅ |
+| [完整输出强制 Full-Output Enforcement](https://aibars.net/zh/skills/896418233392041984) | 不让智能体偷工减料：不写占位代码，不说“其余同理”，不跳过章节。它会先数清交付物，逐个完整写出，遇到长度上限时干净地暂停。 | Leonxlnx | MIT | 低 | ✅ |
 | [修复 GitHub CI 失败 Fix Failing GitHub CI](https://aibars.net/zh/skills/895740527281180672) | 调试拉取请求上失败的 GitHub Actions 检查：找出失败的检查、拉取日志、总结原因、起草修复方案，并且只有在你批准后才修改代码。 | OpenAI | Apache-2.0 | 中 | ⚠️ 未试用 |
 | [追问到底 Grilling](https://aibars.net/zh/skills/894699000484335616) | 让代理按编号分轮次采访你，每个问题都附上推荐答案，直到计划里的每个决定都敲定。 | Matt Pocock | MIT | — | ✅ |
 | [交接 Handoff](https://aibars.net/zh/skills/894699014652694528) | 把当前对话压缩成一份交接文档，让全新的代理会话能接着做。 | Matt Pocock | MIT | — | ✅ |
+| [改进代码库架构 Improve Codebase Architecture](https://aibars.net/zh/skills/896433124773466112) | 扫描代码库，找出能把“浅模块”变成“深模块”的重构，用带前后对比图的可视化 HTML 报告呈现，再对你选中的那一个进行追问式讨论。 | Matt Pocock | MIT | 中 | ⚠️ 未试用 |
 | [故障复盘 Incident Post-Mortem（无责）](https://aibars.net/zh/skills/894885971676631040) | 带领团队完成一次结构化的无责复盘：时间线、用 5 个为什么找根因、影响数据，以及有负责人和截止日期的改进事项。 | awesome-copilot community | MIT | 中 | ✅ |
 | [先查原因 Investigate First](https://aibars.net/zh/skills/894685166356926464) | 让代理在改代码之前，先找到并证实 bug 的原因。 | Julius Brussee | Apache-2.0 | — | ✅ |
 | [Markdown 与 Mermaid 写作](https://aibars.net/zh/skills/895740636475691008) | 用 Markdown 加 Mermaid 图来写工作流、数据结构、时间线和架构文档：21 种图的语法指南、文档模板、无障碍元数据和渲染检查。 | Clayton Young / Superior Byte Works | Apache-2.0 | 中 | ✅ |
@@ -153,12 +173,13 @@
 | [为代理写文档 Writing for Agents](https://aibars.net/zh/skills/894699028359680000) | 一份写给代理看的文档的写作参考，适用于 skill、CLAUDE.md、AGENTS.md，让代理的行为更可预测。 | Matt Pocock | MIT | — | ✅ |
 | [编写实施计划 Writing Plans](https://aibars.net/zh/skills/895089973114703872) | 把规格文档变成别人能照着做的分步实施计划：精确的文件、接口、先写测试的步骤（含预期输出）和自查。 | Jesse Vincent | MIT | 中 | ✅ |
 
-### 品牌与营销（26）
+### 品牌与营销（27）
 
 | Skill | 做什么 | 作者 | 协议 | 风险 | 试用 |
 |---|---|---|---|---|---|
 | [转化文案 Conversion Copywriting](https://aibars.net/zh/skills/895074689435832320) | 为首页、落地页、定价页和功能页写作和改写营销文案：清晰的标题、有力的 CTA、页面结构，以及一份必须避开的“AI 腔”严格清单。 | Corey Haines | MIT | 低 | ✅ |
 | [转化率优化 CRO](https://aibars.net/zh/skills/895074761183596544) | 分析营销页面或表单，得到排好序的改进建议：价值主张、标题、CTA、信任信号、异议和阻力，附测试思路和文案备选。 | Corey Haines | MIT | 低 | ✅ |
+| [Google SEO 审计](https://aibars.net/zh/skills/896036597110411264) · 原创 | 根据你提供的 HTML、robots.txt 和 Search Console 数据，从 Google 搜索的角度审计页面或站点：抓取与收录障碍、标题、内容质量、结构化数据和页面体验，给出按优先级排序的修复清单。 | AIBars | MIT | — | ✅ |
 | [A/B 测试与实验 A/B Testing](https://aibars.net/zh/skills/895074798055723008) | 规划能得出有效结论的 A/B 测试：假设、样本量与时长、指标、变体和分析，另有带 ICE 评分和打法手册的增长实验体系。 | Corey Haines | MIT | 低 | ✅ |
 | [广告投放分析 Ad Campaign Analyzer](https://aibars.net/zh/skills/894885732513222656) | 把广告投放数据导出变成明确的决策：该暂停什么、加码什么、测试什么，以及如何在渠道之间重新分配预算。 | GooseWorks | MIT | 中 | ✅ |
 | [AI 搜索优化 AI SEO](https://aibars.net/zh/skills/894666349127929856) | 审计并改进产品内容在 AI 回答中的可发现性、可提取性和引用机会。 | Corey Haines | MIT | — | ✅ |
@@ -184,12 +205,18 @@
 | [SEO 审计](https://aibars.net/zh/skills/894677560510910464) | 生成包含优先级修复建议的技术、页面和多语言 SEO 审计。 | Corey Haines | MIT | — | ✅ |
 | [服务端转化追踪 Server-Side Conversion Tracking](https://aibars.net/zh/skills/894931698423435264) | 解决广告转化少报的问题：捕获点击 ID、一路带到订单、把购买以服务器对服务器的方式发给 Facebook、TikTok、Google 和 Bing，再去重和核对。 | awesome-copilot community | MIT | 中 | ✅ |
 
-### 研究与学习（2）
+### 研究与学习（8）
 
 | Skill | 做什么 | 作者 | 协议 | 风险 | 试用 |
 |---|---|---|---|---|---|
+| [论文阅读 Paper Reading](https://aibars.net/zh/skills/896427684459188224) · 原创 | 分三遍批判性地读一篇论文：它主张什么、怎么检验、证据是否站得住，以及你能从中得到什么。关键主张附原文引用，文中没说的就写“未说明”。 | AIBars | MIT | 低 | ✅ |
+| [学习计划 Study Plan](https://aibars.net/zh/skills/896427730831413248) · 原创 | 根据你的目标、现有水平和每周可用时间，做出一份切实可行的学习计划：可行性判断、带检查点的阶段、含间隔复习的每周安排，以及落后时的补救规则。 | AIBars | MIT | 低 | ✅ |
 | [审慎追问 Discernment Nudge](https://aibars.net/zh/skills/894625433440751616) | 在你可能据此行动的实质性回答之后，附上 2 到 3 个具体的追问，帮你核对事实、检验推理、发现缺失的背景。 | Anthropic | Apache-2.0 | — | ✅ |
 | [AI 输出核查 Doublecheck](https://aibars.net/zh/skills/894885936842936320) | 核查 AI 写的文字：提取每一条可验证的断言，找出你可以自己打开查看的来源，并在结构化报告里标出可能的幻觉。 | awesome-copilot community | MIT | 中 | ✅ |
+| [闪卡与测验 Flashcards and Quiz](https://aibars.net/zh/skills/896427777283330048) · 原创 | 把你提供的学习材料做成闪卡和分级测验，用于主动回忆，附出处、解析、常见错误和间隔复习安排，不添加材料之外的任何内容。 | AIBars | MIT | 低 | ✅ |
+| [文献综述 Literature Review](https://aibars.net/zh/skills/896427636820283392) · 原创 | 把你提供的论文和笔记整理成结构化的综述：主题、一致与分歧、研究方法、研究空白和来源对照，不编造引用，并说明每个主题的证据强度。 | AIBars | MIT | 低 | ✅ |
+| [研究问题界定 Research Question Framing](https://aibars.net/zh/skills/896427823680720896) · 原创 | 把模糊的主题变成可研究的问题：先诊断哪里模糊，再一步步缩小范围，用清晰度、可行性和价值检验每个候选问题，最后给选中的问题定下定义、范围、假设和证据。 | AIBars | MIT | 低 | ✅ |
+| [教学工作区 Teach](https://aibars.net/zh/skills/896432932938584064) | 把当前文件夹变成教学工作区，用多次会话学会一个主题：明确的学习目标、可信资料、简短的交互式 HTML 课程、速查文档，以及决定下一步教什么的学习记录。 | Matt Pocock | MIT | 中 | ⚠️ 未试用 |
 
 ## 安装 Skill
 
